@@ -1,22 +1,14 @@
 ## Add to Colab
 
-### StyleGAN2-ADA PyTorch (Start Here)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dvschultz/stylegan2-ada-pytorch/blob/main/SG2_ADA_PyTorch.ipynb)
+### StyleGAN2-ADA PyTorch with custom dataset using Google Drive (Start Here)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1JY6VJRC3AotdcYZO97jXp2F2UbQ4x56g#scrollTo=qWXKcGMi6NPO&uniqifier=2)
+# This is the Colab file I used to manage the project itself, which was then based on the stylegan2-ADA model and subsequent changes made by dvschultz to it. This is NOT a commercial product, and any usage request should go through the aforementioned people rather than me.
 
-### StyleGAN2-ADA-PyTorch to Rosinality Convertor
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dvschultz/stylegan2-ada-pytorch/blob/main/SG2_ADA_PT_to_Rosinality.ipynb)
-
-### StyleGAN2-ADA PyTorch Reactive Audio
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dvschultz/stylegan2-ada-pytorch/blob/main/SG2-ADA-PT_AudioReactive%2BPitch.ipynb)
-
-### Blending Network Demo/Explainer
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dvschultz/stylegan2-ada-pytorch/blob/main/Network_Blending_ADA_PT.ipynb)
 
 ## Need Help?
-* If you’re new to StyleGAN2-ADA and looking to get started, please check out [this video series](https://www.youtube.com/playlist?list=PLWuCzxqIpJs8ViuBIUtAk-dsAtdrApYoy) from a course Lia Coleman and I taught in October 2020.
-* Interested in contributing? Please submit PRs or discuss changes in the [Artificial Images Slack](https://join.slack.com/t/ml-images/shared_invite/zt-9mxoe7va-eBZ9xzAWpx8VRL~Km_PzUQ) channel
+* If you’re new to StyleGAN2-ADA and looking to get started, please check out [this video series](https://www.youtube.com/playlist?list=PLWuCzxqIpJs8ViuBIUtAk-dsAtdrApYoy)
 
-## Edits made to this repo
+## Edits made to this repo (owed to dvschultz)
 
 * **Fakes .jpg**: save yourself a ton of space with fakes during training saved as .jpg instead of .png
 * **Multiple interpolation options**: use `--process="interpolation"`, see `--help` for more options
